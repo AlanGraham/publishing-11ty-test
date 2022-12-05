@@ -1,10 +1,6 @@
----
-title: Big Star Collectibles
-img: /images/logo_bigstar.svg
-layout: base.njk
----
+# Collectibles
 
-![{{title}}]({{img | url}})
+[Big Star Logo](images/logo_bigstar.svg)
 
 Founded in 2012, Big Star Collectibles is the premier online retailer of trading card and other collectibles. If your hobby is collecting, we've got the stock you want.
 
