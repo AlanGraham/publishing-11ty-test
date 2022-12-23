@@ -1,0 +1,16 @@
+{
+  "name": "publishing-11ty-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Alan Graham",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.0"
+  }
+}
