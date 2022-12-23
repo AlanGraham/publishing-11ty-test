@@ -17,7 +17,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.markdownTemplateEngine = 'njk';
   
     return {
-      pathPrefix: '/publishing-11ty/',
+      pathPrefix: '/publishing-11ty-test/',
       dir: {
         input: "src",
         output: "docs"
