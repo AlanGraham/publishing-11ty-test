@@ -11,6 +11,7 @@ module.exports = eleventyConfig => {
   
     const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
   
+    eleventyConfig.addPassthroughCopy("src/logo");
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.setLibrary('md', markdownLib);
     eleventyConfig.markdownTemplateEngine = 'njk';
